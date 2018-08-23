@@ -1,0 +1,9 @@
+1.学习软件使用教程
+modelsim详细使用教程
+https://wenku.baidu.com/view/cd93f34ecf84b9d528ea7a95.html
+
+
+2.解压当前目录的MIPS-processor-master.rar，用Mars工具生成标准MIPS二进制指令，将生成的二进制指令拷贝到instructions.txt文件。
+
+
+3.参考modelsim使用教程（modelsim详细使用教程.pdf）新建工程，将解压得到的所有.VHD文件加入工程，并编译通过。将instructions.txt和setup.tcl两个文件也一并放入工程目录，在modelsim命令行输入：do ./setup.tcl 将自动执行仿真
